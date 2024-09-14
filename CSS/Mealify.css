@@ -95,7 +95,12 @@ body {
 .fa-bars {
     display: none;
 }
-
+input{
+    padding: 3%;
+}
+textarea{
+    padding: 3%;
+}
 /* Nav-bar-end */
 /* Header */
 .Header {
@@ -971,6 +976,12 @@ textarea {
     .form-inputs .user-email {
         width: 50%;
         height: 50px;
+    }
+    input{
+        padding: 1%;
+    }
+    textarea{
+        padding: 1%;
     }
 
     /* Footer */
