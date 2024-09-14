@@ -39,7 +39,7 @@ body {
     background-color: #ffffff;
     z-index: 9999;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -53,8 +53,7 @@ body {
 }
 .nav-bar .logo {
     color: rgb(33, 37, 41);
-    font-size: 13px;
-    
+    font-size: 12px;
 }
 
 .nav-bar .logo span {
@@ -874,6 +873,9 @@ textarea {
     .nav-bar .nav-items li {
 
         position: relative;
+    }
+    .nav-bar .nav-items ul li {
+        font-size: 17px;
     }
 
     .nav-bar .nav-items ul li::after {
